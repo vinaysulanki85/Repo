@@ -11,3 +11,46 @@ git push -u origin main
 git remote add origin https://github.com/vinaysulanki85/Repo.git
 git branch -M main
 git push -u origin main
+------------------------------------------
+git init
+initiates the git monitoring on the folder
+
+git status
+returns the lists of files which are not yet tracked
+
+git add .
+Adds all the files to the staging area
+
+git add <filename>
+Adds selective file to the staging area
+
+git restore --staged <filename>
+
+git commit
+Commits the changes to Git
+
+git commit -m "<message>"
+Commits the changes to Git with specific message
+
+git config --global user.email "vinaysulanki85@gmail.com"
+
+git config --global user.name "Vinay Sulanki"
+
+
+git log
+Shows the entire log
+
+git stash
+keeps in backstage
+
+git stash pop
+brings back from backstage
+
+git remote add origin <giturl>
+Adds remote URL link with local folder
+
+git remote -v
+shows the available locations connected
+
+git push origin master
+pushes the local files to url
