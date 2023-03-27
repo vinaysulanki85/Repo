@@ -1,3 +1,9 @@
+## if we want to open git bash terminal in a particular directory/Folder
+
+Shift+Right Click and select Git Bash
+
+
+
 or create a new repository on the command line
 echo "# Repo" >> README.md
 git init
