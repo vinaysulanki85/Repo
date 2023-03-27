@@ -1,6 +1,50 @@
 ## if we want to open git bash terminal in a particular directory/Folder
 
-Shift+Right Click and select Git Bash
+	Shift+Right Click and select Git Bash
+
+## if we want to remove git tracking from the directory/Folder. this command is basically remove the content of the directory
+
+	rm -rf .git
+
+## if we want to compare working dir with stased dir
+	
+	git diff
+
+## if we want to compare staged dir with last commit
+
+	git diff --staged
+
+## if we want to untrack over file
+	git rm --cached <file name>
+
+## show the log with changes
+	git log -p
+
+## show last 3 log with changes
+	git log -p -3
+
+## show high level log of changes
+	git log --stat
+
+## show log in one line	
+	git log --pretty=oneline
+
+## show short log	
+	git log --pretty=short
+
+## show logs from last 2 days/weeks
+	git log --since=2.days
+	git log --since=2.weeks
+	git log --since=2.months
+	git log --since=2.years
+
+## Restore the last commit
+	
+	git checkout -f
+
+
+## Push code into remote repositry
+	git push -u origin master
 
 
 
@@ -24,13 +68,14 @@ initiates the git monitoring on the folder
 git status
 returns the lists of files which are not yet tracked
 
-git add .
+git add --a
 Adds all the files to the staging area
 
 git add <filename>
 Adds selective file to the staging area
 
 git restore --staged <filename>
+Staged files backed into modified
 
 git commit
 Commits the changes to Git
