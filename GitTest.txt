@@ -47,6 +47,39 @@
 	git push -u origin master
 
 
+############################# BRANCHING ###################################
+
+#Create new branch
+	git checkout -b <name of the branch>
+
+
+#Change branch
+	git checkout <name of the branch>
+
+# Show all branches
+	git branch
+
+# Merge brabch in Master or main branch
+	#Checkout first in the master or main branch
+	
+	git merge <branch name>
+
+# See all merged branchs
+	git branch --merged
+
+# See all not merged branch
+	git branch --no-merged
+
+#Deleting the branch
+	git branch -d <branch name> // gives error if you delete the not merged branch
+
+#Deleting the branch forcefully
+	git branch -D <branch name>
+
+#
+
+
+
 
 or create a new repository on the command line
 echo "# Repo" >> README.md
